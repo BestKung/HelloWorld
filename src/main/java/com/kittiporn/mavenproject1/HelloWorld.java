@@ -6,13 +6,17 @@
 
 package com.kittiporn.mavenproject1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Best
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World2");
+        Scanner scan = new Scanner(System.in);
+        int number = scan.nextInt();
+        System.out.println(number);
     }
     
 }
